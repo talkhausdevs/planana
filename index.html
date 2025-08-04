@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🍌 Planana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍌 Planana</h1>
+    <p class="subtitle">your goofy, Gen-Z life planner powered by banana vibes and AI 🍌✨</p>
+
+    <button id="startButton">Start My Day</button>
+
+    <div id="moodPicker" class="hidden">
+      <p>how u feelin today?</p>
+      <button onclick="pickMood('tired')">😴 tired</button>
+      <button onclick="pickMood('meh')">😐 meh</button>
+      <button onclick="pickMood('beast')">💪 beast mode</button>
+    </div>
+
+    <div id="plan" class="planBox"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
